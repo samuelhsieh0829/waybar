@@ -422,5 +422,31 @@
       ""
     ],
     "scroll-step": 1
+  },
+
+  // Group Dynamic Island
+  "group/dynamic_island": {
+    "orientation": "horizontal",
+    "drawer": {
+      "transition-duration": 300,
+      "children-class": "island-child",
+      "transition-left-to-right": true
+    },
+    "modules": [
+      "custom/dynamic_island"
+      // "custom/music",
+      // "tray",
+      // "custom/exit"
+    ]
+  },
+
+  "custom/dynamic_island": {
+    "exec": "/home/samuel/.config/.venv/bin/python3 /home/samuel/.config/waybar/scripts/dynamic_island.py",
+    "return-type": "json",
+    "format": "{}",
+    "restart-interval": 0,
+    "signal": 1,
+    "justify": "center"
   }
+
 }

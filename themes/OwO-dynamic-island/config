@@ -27,7 +27,7 @@
     // Modules Left
     "modules-left": [
         "custom/appmenu",
-        "hyprland/workspaces",
+        // "hyprland/workspaces",
         // "group/links",
         //"wlr/taskbar",
         // "group/quicklinks",
@@ -36,25 +36,27 @@
 
     // Modules Center
     "modules-center": [
-"hyprland/window",
-        "custom/empty"
+        // "custom/appmenu",
+        "group/dynamic_island"
+        // "clock"
     ],
 
     // Modules Right    
     "modules-right": [
-        // "custom/updates",
-        "pulseaudio",
-        //"backlight",
-        "bluetooth",
-        "network",
+        // // "custom/updates",
+        // "pulseaudio",
+        // //"backlight",
+        // "bluetooth",
+        // "network",
         // "battery", 
         // "power-profiles-daemon",
-        "group/hardware",
-        // "group/tools",
-        "tray",
-        "custom/notification",
-        "custom/exit",
-        "custom/ml4w-welcome",
-        "clock"
+        // "group/hardware",
+        // // "group/tools",
+        // "tray",
+        // "custom/notification",
+        // "custom/exit",
+        // "custom/ml4w-welcome",
+        "clock",
+        "custom/empty"
     ]
 }
